@@ -1,0 +1,9 @@
+Check,Expected,Observed,Passed
+Common categorical cell count,384441,384441,True
+Cross-tabulation pixel total,384441,384441,True
+Cross-tab percentage total,100.0,100.0,True
+High and Very High priority percentage,52.02328786850171,52.02328786850171,True
+Heatmap PNG exported,True,True,True
+Heatmap PDF exported,True,True,True
+Key-results table exported,True,True,True
+Key-findings text exported,True,True,True

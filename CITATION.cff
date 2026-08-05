@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this project using the information below."
+title: "Urban Green Infrastructure and Ecosystem Service Deficit Mapping — Tartu, Estonia"
+type: software
+authors:
+  - family-names: "Abdazeez Ayomide"
+    given-names: "Abdullah"
+date-released: "2026-07-31"
+version: "1.0.0"
+abstract: >
+  A reproducible geospatial planning workflow for mapping urban green
+  infrastructure, ecosystem-service capacity, demand, deficit and
+  planning-priority zones within the compact urban area of Tartu, Estonia.
+keywords:
+  - urban green infrastructure
+  - ecosystem services
+  - spatial planning
+  - GIS
+  - Tartu
+  - green-space deficit
+  - urban sustainability
+license: MIT

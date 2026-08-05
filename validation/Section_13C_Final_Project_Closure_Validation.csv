@@ -1,0 +1,9 @@
+Check,Expected,Observed,Passed
+All required final outputs exist,27,27,True
+Final package directory exists,True,True,True
+File manifest created,True,True,True
+Final ZIP archive exists,True,True,True
+ZIP archive is non-empty,> 1 MB,33.290658950805664,True
+ZIP integrity passed,True,True,True
+Required ZIP members complete,True,True,True
+ZIP SHA256 generated,64,64,True

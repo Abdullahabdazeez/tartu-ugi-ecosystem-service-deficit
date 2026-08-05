@@ -1,0 +1,18 @@
+{
+  "project_title": "Urban Green Infrastructure and Ecosystem Service Deficit Mapping \u2014 Tartu, Estonia",
+  "repository_name": "tartu-ugi-ecosystem-service-deficit",
+  "study_area": "Tartu, Estonia",
+  "study_area_km2": 38.887971,
+  "built_up_pct": 55.097821,
+  "vegetated_ugi_pct": 42.737456,
+  "tree_based_ugi_pct": 25.315014,
+  "high_very_high_priority_pct": 52.023288,
+  "very_high_priority_pct": 31.094293,
+  "built_up_in_high_very_high_priority_km2": 19.9552,
+  "mean_capacity": 36.710318,
+  "mean_demand": 0.378701,
+  "mean_deficit": 0.513534,
+  "capacity_deficit_correlation": -0.973531,
+  "demand_deficit_correlation": 0.958843,
+  "author": "Abdullah Abdazeez Ayomide"
+}

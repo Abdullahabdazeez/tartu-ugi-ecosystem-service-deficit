@@ -1,0 +1,27 @@
+LIMITATIONS
+
+1. The ecosystem-service capacity, demand, deficit and priority outputs are
+   model-derived indicators. They represent comparative spatial conditions rather
+   than direct measurements of every ecosystem service.
+
+2. The demand raster contains limited NoData coverage. Cross-dataset statistics
+   therefore use a common valid area of 38.444 km², while individual UGI and
+   priority summaries use the full rasterized boundary area of 38.887 km².
+
+3. The priority classification depends on the indicators, normalization methods,
+   thresholds and weighting framework established during the analytical stages.
+
+4. The results identify strategic planning priorities at the project raster
+   resolution. Detailed intervention design requires field verification and
+   site-specific assessment.
+
+5. The reported correlations are internal model relationships because the
+   ecosystem-service deficit was calculated from capacity and demand. They must
+   not be presented as independent evidence of causation.
+
+6. Small classes such as stressed green space and bare surface contain relatively
+   few pixels. Percentage interpretations for these classes should therefore be
+   treated cautiously.
+
+7. The outputs represent the project reference period and should be updated when
+   newer land-cover, population or planning data become available.

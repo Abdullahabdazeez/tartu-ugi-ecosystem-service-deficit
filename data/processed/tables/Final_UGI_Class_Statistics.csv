@@ -1,0 +1,8 @@
+Dataset,Code,Class,Pixels,Area_ha,Area_km2,Percent
+Urban Green Infrastructure,1,Water,8279,82.79,0.8279,2.12897817276636
+Urban Green Infrastructure,2,Dense Urban Forest,85492,854.92,8.5492,21.984611903145506
+Urban Green Infrastructure,3,Urban Woodland,12951,129.51,1.2951,3.3304017774486208
+Urban Green Infrastructure,4,Healthy Green Space,67589,675.89,6.7589,17.380783394021684
+Urban Green Infrastructure,5,Stressed Green Space,162,1.62,0.0162,0.04165895204591742
+Urban Green Infrastructure,6,Built-up,214260,2142.6,21.426,55.09782139110041
+Urban Green Infrastructure,7,Bare Surface,139,1.39,0.0139,0.03574440947149705

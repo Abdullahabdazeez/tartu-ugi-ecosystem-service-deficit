@@ -1,0 +1,8 @@
+Check,Expected,Observed,Passed
+All five final map PNG files exist,5,5,True
+All six chart PNG files exist,6,6,True
+Final Word report exists,True,True,True
+Final PDF report exists,True,True,True
+Word report is non-empty,> 0.5 MB,9.044620513916016,True
+PDF report is non-empty,> 0.5 MB,3.0985326766967773,True
+All report-input files registered,13,13,True

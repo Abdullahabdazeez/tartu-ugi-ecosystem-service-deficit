@@ -1,0 +1,6 @@
+Figure,Map,Output_Stem,Caption
+1,Urban Green Infrastructure Classification,01_Urban_Green_Infrastructure,Figure 1. Spatial distribution of the seven urban green infrastructure and land-surface classes within the compact Tartu study area.
+2,Ecosystem Service Capacity,02_Ecosystem_Service_Capacity,"Figure 2. Ecosystem service capacity scores, where higher values identify areas with stronger potential to provide urban ecological functions and benefits."
+3,Ecosystem Service Demand,03_Ecosystem_Service_Demand,"Figure 3. Normalized ecosystem service demand index, with higher values representing areas of greater population, environmental or urban-service need."
+4,Ecosystem Service Deficit,04_Ecosystem_Service_Deficit,"Figure 4. Normalized ecosystem service deficit index, where higher values indicate locations in which service demand is poorly matched by existing ecosystem service capacity."
+5,Urban Green Infrastructure Planning Priority Zones,05_Planning_Priority_Zones,"Figure 5. Planning-priority classification showing the relative urgency for urban green infrastructure protection, enhancement or targeted intervention."
