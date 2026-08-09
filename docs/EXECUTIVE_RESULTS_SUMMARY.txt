@@ -1,27 +1,9 @@
 EXECUTIVE RESULTS SUMMARY
 
-The validated compact urban study area covers 38.888 km².
-Built-up land is the dominant mapped surface, occupying 21.426 km²,
-equivalent to 55.10% of the study area. Vegetated urban green
-infrastructure—including dense urban forest, urban woodland, healthy green space
-and stressed green space—covers 16.619 km² or
-42.74% of the area.
+The final reporting area covers 38.8872 km² in Tartu, Estonia. Built-up land is the dominant class, occupying 21.6040 km² or 55.56% of the study area. Dense Urban Forest covers 7.5759 km² (19.48%), Healthy Green Space 6.2446 km² (16.06%) and Urban Woodland 2.4494 km² (6.30%).
 
-The ecosystem-service planning-priority assessment identifies
-20.230 km², or 52.02% of the study
-area, as High or Very High priority. Very High priority zones alone occupy
-12.092 km², representing 31.09% of the
-mapped area.
+Mean ecosystem-service capacity is 41.54/100, mean demand is 0.5768 and mean deficit is 0.4110. Built-up areas have mean capacity of 8.00/100, mean demand of 0.7339 and mean deficit of 0.6751.
 
-The spatial concentration of urgent planning need is strongly associated with
-built-up surfaces. Approximately 19.955 km² of
-built-up land falls within High or Very High priority zones. This represents
-93.14% of all mapped built-up land and
-98.64% of the total High and Very High priority area.
+The main planning result is the concentration of high intervention priority within the urban fabric. Approximately 72.30% of built-up land falls within High or Very High planning-priority classes, compared with only 0.02% of non-built land.
 
-Mean ecosystem-service deficit increases systematically from
-0.104 in Very Low priority areas to
-0.858 in Very High priority areas. The Very High priority
-mean is approximately 8.3 times the mean recorded in
-Very Low priority areas, demonstrating a clear and internally consistent planning
-gradient.
+The results identify a clear spatial mismatch between ecological capacity and urban demand. Existing high-capacity forest and woodland should be protected, while built-up deficit hotspots provide the strongest locations for targeted green-infrastructure enhancement and nature-based interventions.
