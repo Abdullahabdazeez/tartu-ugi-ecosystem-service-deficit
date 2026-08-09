@@ -1,19 +1,7 @@
 CONCLUSION
 
-The analysis demonstrates that Tartu's compact urban area contains substantial
-green infrastructure, but ecosystem-service capacity and planning need are
-unevenly distributed. Vegetated UGI covers 42.74% of the mapped
-area, while built-up surfaces account for 55.10%.
+This study demonstrates how geospatial planning can move beyond mapping green space to identify where ecological provision is least able to meet urban demand. By integrating land cover, vegetation condition, population distribution, ecosystem-service capacity and deficit, I developed a spatial decision-support framework for prioritising green-infrastructure intervention across Tartu.
 
-More than half of the study area—52.02% or
-20.230 km²—is classified as High or Very High planning
-priority. The urgent planning burden is concentrated almost entirely within
-built-up surfaces: 93.14% of built-up land lies in
-the two highest priority categories, and built-up areas constitute
-98.64% of all High and Very High priority land.
+The final reporting area covers 38.8872 km². Built-up land occupies 21.6040 km² or 55.56% of the study area. Mean ecosystem-service capacity is 41.54/100, mean demand is 0.5768 and mean deficit is 0.4110. About 72.30% of built-up land falls within High or Very High planning priority.
 
-The results support a two-part planning strategy. Existing high-capacity forests,
-woodlands and healthy green spaces should be protected and connected, while
-built-up deficit hotspots should receive targeted green-infrastructure
-interventions. The final priority map provides a consistent spatial framework for
-screening, investment prioritization and further site-level planning.
+The planning implication is to combine protection of existing high-capacity ecological assets with targeted enhancement in urban areas where demand is concentrated and local ecological capacity is weak. The resulting maps provide an evidence base for directing more detailed planning, design and field assessment.
