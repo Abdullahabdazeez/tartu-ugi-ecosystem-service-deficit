@@ -1,52 +1,21 @@
 PLANNING IMPLICATIONS
 
-1. Prioritize Built-Up Deficit Hotspots
+1. Enhance Green Infrastructure in High-Demand Built-up Areas
 
-The primary intervention focus should be the 19.955
-km² of built-up land located within High and Very High priority zones. Because
-these surfaces comprise 98.64% of the total urgent
-area, strategies focused on developed land will address the largest share of the
-identified ecosystem-service deficit.
+High-priority built-up areas should be assessed for opportunities to introduce additional vegetation and ecosystem-service functions. Where large parks are not feasible, smaller distributed interventions can still improve environmental performance. Suitable measures include street-tree planting, pocket parks, vegetated courtyards, green roofs, green walls and conversion of underused hard surfaces to planted or permeable areas.
 
-2. Protect Existing High-Capacity Green Infrastructure
+2. Protect Existing High-Capacity Green Assets
 
-Dense urban forest and urban woodland should be treated as critical green
-infrastructure assets. Their concentration in Very Low priority zones indicates
-that they provide substantial ecosystem-service capacity relative to local
-demand. Planning controls should therefore emphasize retention, connectivity and
-avoidance of unnecessary fragmentation.
+Dense Urban Forest and Urban Woodland show the strongest ecosystem-service capacity and very low deficit. These areas should be treated as strategic ecological assets. Planning decisions should minimise unnecessary fragmentation, protect mature vegetation and maintain connections between larger green areas and the surrounding urban fabric.
 
-3. Enhance Green Infrastructure Within Developed Areas
+3. Improve Green-Space Connectivity and Access
 
-High-priority built-up zones are suitable locations for interventions that can be
-integrated into the existing urban fabric. Relevant measures include street-tree
-planting, vegetated corridors, pocket parks, green roofs, green walls, permeable
-surfaces and the greening of public institutional land.
+Where high-demand neighbourhoods are close to existing green assets, planning should consider stronger pedestrian and green-network connections. Improved walking links, tree-lined routes and connected open-space corridors can extend the functional value of existing green infrastructure without requiring entirely new large green spaces.
 
-4. Strengthen Green-Space Connectivity
+4. Integrate Green Infrastructure with Stormwater and Climate Adaptation
 
-Existing forests, woodland, healthy green spaces and water-related open spaces
-should be connected where spatial opportunities exist. Improved connectivity can
-support continuity between high-capacity areas and reduce isolated deficit
-hotspots.
+Bioswales, rain gardens, permeable surfaces, tree pits and vegetated drainage corridors can support stormwater management while increasing local ecological capacity. Priority areas identified in this study provide a logical starting point for locating such multifunctional interventions.
 
-5. Use Moderate-Priority Zones for Preventive Planning
+5. Use the Priority Map as a Screening Tool
 
-The 2.935 km² of Moderate priority land should not be
-ignored. These areas represent transitional locations where targeted,
-lower-intensity intervention may prevent future escalation into High or Very High
-priority conditions.
-
-6. Apply Context-Specific Intervention Design
-
-The priority map identifies where intervention need is greatest, but it does not
-prescribe one uniform solution. Site-level planning should consider land
-ownership, current land use, development intensity, public-space availability,
-infrastructure constraints and implementation feasibility.
-
-7. Integrate the Priority Surface Into Planning Decisions
-
-The final planning-priority raster can support preliminary screening for urban
-development review, green-space investment, neighbourhood upgrading and
-ecosystem-service enhancement. It should be used as a strategic decision-support
-layer rather than as a substitute for detailed site assessment.
+The city-wide priority layer should guide where more detailed planning investigation begins. Before implementation, individual sites should be assessed for land ownership, public access, existing land use, engineering constraints, cost, community needs and field conditions. The geospatial model narrows the search area; site planning determines the appropriate intervention.
