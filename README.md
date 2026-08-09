@@ -2,13 +2,17 @@
 
 **A geospatial planning assessment of ecosystem-service capacity, demand, deficit and intervention priorities across Tartu.**
 
+<p align="center">
+  <img src="assets/project-board/Tartu_Final_Scientific_Project_Board.png" alt="Tartu urban green infrastructure and ecosystem-service deficit project board" width="100%">
+</p>
+
+## Overview
+
 Urban green infrastructure supports cooling, stormwater regulation, biodiversity, recreation and general environmental quality, but green assets are not always located where urban demand is strongest. I developed this project to identify that spatial mismatch across Tartu, Estonia, and translate it into practical planning priorities.
 
 The analysis integrates Sentinel-2 vegetation and surface-condition indicators, Dynamic World land-cover information and WorldPop population data. I used these inputs to classify urban green infrastructure, estimate ecosystem-service capacity, model population-led demand, calculate ecosystem-service deficit and identify areas where green-infrastructure intervention should receive greater planning attention.
 
-## Research question
-
-**Where are ecosystem-service deficits concentrated in Tartu, and which areas should receive the greatest planning attention for urban green-infrastructure intervention?**
+**Research question:** *Where are ecosystem-service deficits concentrated in Tartu, and which areas should receive the greatest planning attention for urban green-infrastructure intervention?*
 
 ## Study area
 
@@ -47,6 +51,26 @@ The analysis integrates Sentinel-2 vegetation and surface-condition indicators, 
 - High and Very High priority classes together cover approximately **15.6229 km² (40.17%)** of the reporting area.
 - Deficit and planning priority have a Spearman correlation of **0.9802**, consistent with priority being derived from the deficit ranking.
 
+## Selected outputs
+
+### Urban Green Infrastructure
+![Urban Green Infrastructure](assets/maps/01_Tartu_Final_UGI_2025.png)
+
+### Ecosystem-Service Capacity
+![Ecosystem-Service Capacity](assets/maps/02_Tartu_Final_Ecosystem_Service_Capacity.png)
+
+### Ecosystem-Service Demand
+![Ecosystem-Service Demand](assets/maps/03_Tartu_Final_Ecosystem_Service_Demand.png)
+
+### Ecosystem-Service Deficit
+![Ecosystem-Service Deficit](assets/maps/04_Tartu_Final_Ecosystem_Service_Deficit.png)
+
+### Planning Priority
+![Planning Priority](assets/maps/05_Tartu_Final_Planning_Priority.png)
+
+### Planning Priority with UGI Context
+![Planning Priority with UGI Context](assets/maps/06_Tartu_Final_Planning_Priority_with_UGI_Context.png)
+
 ## Planning interpretation
 
 The results reveal a clear spatial mismatch between ecological capacity and urban demand. Dense forest and woodland generally provide strong ecosystem-service capacity and experience low deficit, while much of the built-up fabric combines weak local capacity with comparatively high demand. Built-up areas therefore emerge as the main locations for targeted green-infrastructure enhancement—not because the model directly penalises development, but because the combined capacity-demand relationship produces higher deficits there.
@@ -57,16 +81,42 @@ The priority map is intended as a strategic screening tool. High-priority locati
 
 I formulated the planning problem, designed and implemented the geospatial workflow, integrated the remote-sensing, land-cover and population datasets, developed the capacity-demand-deficit framework, tested model sensitivity, interpreted the spatial results, produced the cartographic outputs and translated the findings into planning recommendations. External datasets and established geospatial methods remain attributable to their original providers and sources.
 
-## Final report
-
-Read the complete public-facing report here: [`docs/FINAL_REPORT.md`](docs/FINAL_REPORT.md).
-
 ## Data sources
 
-- **Sentinel-2 Surface Reflectance Harmonized** — spectral indicators and environmental condition.
-- **Google Dynamic World** — land-cover information supporting UGI classification.
-- **WorldPop 2020** — population-based ecosystem-service demand.
-- **Tartu study boundary** — final reporting and analysis extent.
+- **Sentinel-2 Surface Reflectance Harmonized** — multispectral imagery used for spectral indicators.
+- **Google Dynamic World** — land-cover information used in the UGI classification.
+- **WorldPop 2020** — population information used to model spatial ecosystem-service demand.
+- **Tartu study boundary** — used to define the final reporting extent.
+
+See [`docs/data_sources.md`](docs/data_sources.md) for details.
+
+## Repository structure
+
+```text
+.
+├── assets/
+│   ├── maps/                 # Six final maps
+│   ├── charts/               # Five analytical charts
+│   └── project-board/        # Accepted final scientific project board
+├── data/processed/
+│   ├── tables/               # Final summary tables
+│   └── reporting-rasters/    # Final boundary-masked GeoTIFFs
+├── docs/                     # Methodology, results, limitations and contribution
+├── report/                   # Final public-facing report (DOCX and PDF)
+├── CITATION.cff
+├── LICENSE
+├── README.md
+└── project.json
+```
+
+## Report
+
+- [Final report — PDF](report/Tartu_UGI_Ecosystem_Service_Deficit_Final_Report.pdf)
+- [Final report — DOCX](report/Tartu_UGI_Ecosystem_Service_Deficit_Final_Report.docx)
+
+## Limitations
+
+The capacity, demand and deficit layers are planning-oriented relative indices rather than direct measurements of every ecosystem service. WorldPop is used as a spatial demand proxy rather than household-level population data. The five planning-priority classes are relative to Tartu and should not be transferred directly to another city without recalibration. Site-level intervention design should incorporate field conditions, land ownership, public access, costs, infrastructure constraints and community needs.
 
 ## Author
 

@@ -1,1 +1,0 @@
-The final production notebook could not be located automatically. Download Project_9_Final_Production.ipynb from Google Colab and place it in this folder before publishing the repository.

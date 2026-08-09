@@ -1,7 +1,0 @@
-CONCLUSION
-
-This study demonstrates how geospatial planning can move beyond mapping green space to identify where ecological provision is least able to meet urban demand. By integrating land cover, vegetation condition, population distribution, ecosystem-service capacity and deficit, I developed a spatial decision-support framework for prioritising green-infrastructure intervention across Tartu.
-
-The final reporting area covers 38.8872 km². Built-up land occupies 21.6040 km² or 55.56% of the study area. Mean ecosystem-service capacity is 41.54/100, mean demand is 0.5768 and mean deficit is 0.4110. About 72.30% of built-up land falls within High or Very High planning priority.
-
-The planning implication is to combine protection of existing high-capacity ecological assets with targeted enhancement in urban areas where demand is concentrated and local ecological capacity is weak. The resulting maps provide an evidence base for directing more detailed planning, design and field assessment.

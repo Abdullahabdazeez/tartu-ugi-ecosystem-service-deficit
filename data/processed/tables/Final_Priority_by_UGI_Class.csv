@@ -1,0 +1,36 @@
+UGI_Code,UGI_Class,Priority_Class,Priority_Label,Pixels,Area_ha,Area_km2,Percent_Within_UGI_Class
+1,Water,1,Very Low,2678,26.78,0.26780000000000004,31.83547313361864
+1,Water,2,Low,5098,50.98,0.5098,60.603899191631
+1,Water,3,Moderate,636,6.36,0.0636,7.560627674750356
+1,Water,4,High,0,0.0,0.0,0.0
+1,Water,5,Very High,0,0.0,0.0,0.0
+2,Dense Urban Forest,1,Very Low,68950,689.5,6.8950000000000005,91.01228896896738
+2,Dense Urban Forest,2,Low,6809,68.09,0.6809000000000001,8.987711031032617
+2,Dense Urban Forest,3,Moderate,0,0.0,0.0,0.0
+2,Dense Urban Forest,4,High,0,0.0,0.0,0.0
+2,Dense Urban Forest,5,Very High,0,0.0,0.0,0.0
+3,Urban Woodland,1,Very Low,5075,50.75,0.5075000000000001,20.71935984322691
+3,Urban Woodland,2,Low,19275,192.75,1.9275,78.69274107944803
+3,Urban Woodland,3,Moderate,144,1.44,0.014400000000000001,0.5878990773250592
+3,Urban Woodland,4,High,0,0.0,0.0,0.0
+3,Urban Woodland,5,Very High,0,0.0,0.0,0.0
+4,Healthy Green Space,1,Very Low,629,6.29,0.0629,1.0072702815232362
+4,Healthy Green Space,2,Low,34539,345.39,3.4539,55.3101880024341
+4,Healthy Green Space,3,Moderate,27278,272.78,2.7278000000000002,43.682541716042664
+4,Healthy Green Space,4,High,0,0.0,0.0,0.0
+4,Healthy Green Space,5,Very High,0,0.0,0.0,0.0
+5,Stressed Green Space,1,Very Low,79,0.79,0.0079,4.858548585485855
+5,Stressed Green Space,2,Low,868,8.68,0.0868,53.38253382533826
+5,Stressed Green Space,3,Moderate,664,6.64,0.0664,40.83640836408364
+5,Stressed Green Space,4,High,15,0.15,0.0015,0.922509225092251
+5,Stressed Green Space,5,Very High,0,0.0,0.0,0.0
+6,Built-up,1,Very Low,77,0.77,0.0077,0.035641547861507125
+6,Built-up,2,Low,10901,109.01,1.0901,5.045824847250509
+6,Built-up,3,Moderate,48871,488.71,4.8871,22.621273838178116
+6,Built-up,4,High,78059,780.59,7.8059,36.13173486391409
+6,Built-up,5,Very High,78132,781.32,7.8132,36.16552490279578
+7,Bare Surface,1,Very Low,28,0.28,0.0028,29.473684210526315
+7,Bare Surface,2,Low,4,0.04,0.0004,4.2105263157894735
+7,Bare Surface,3,Moderate,40,0.4,0.004,42.10526315789474
+7,Bare Surface,4,High,1,0.01,0.0001,1.0526315789473684
+7,Bare Surface,5,Very High,22,0.22,0.0022,23.157894736842106
