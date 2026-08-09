@@ -1,27 +1,15 @@
 LIMITATIONS
 
-1. The ecosystem-service capacity, demand, deficit and priority outputs are
-   model-derived indicators. They represent comparative spatial conditions rather
-   than direct measurements of every ecosystem service.
+1. The UGI classification is a planning-oriented representation derived from remote sensing and land-cover products, not a field-validated habitat inventory.
 
-2. The demand raster contains limited NoData coverage. Cross-dataset statistics
-   therefore use a common valid area of 38.444 km², while individual UGI and
-   priority summaries use the full rasterized boundary area of 38.887 km².
+2. WorldPop 2020 is used as a population-based demand proxy. Alignment to a 10 m reporting grid does not imply native 10 m census observations.
 
-3. The priority classification depends on the indicators, normalization methods,
-   thresholds and weighting framework established during the analytical stages.
+3. Ecosystem-service capacity is a relative index rather than a direct measurement of individual services such as cooling, carbon sequestration, recreation or runoff retention.
 
-4. The results identify strategic planning priorities at the project raster
-   resolution. Detailed intervention design requires field verification and
-   site-specific assessment.
+4. Socioeconomic vulnerability, age, public access, ownership, cost and intervention feasibility are not directly included in the deficit model.
 
-5. The reported correlations are internal model relationships because the
-   ecosystem-service deficit was calculated from capacity and demand. They must
-   not be presented as independent evidence of causation.
+5. The five priority classes are relative to conditions within Tartu and should be recalibrated before application elsewhere.
 
-6. Small classes such as stressed green space and bare surface contain relatively
-   few pixels. Percentage interpretations for these classes should therefore be
-   treated cautiously.
+6. Site-specific interventions require field investigation and local planning assessment.
 
-7. The outputs represent the project reference period and should be updated when
-   newer land-cover, population or planning data become available.
+7. A small raster fringe occurs along the vector boundary because of grid discretisation. Final reporting uses a centre-cell boundary mask covering 38.8872 km², closely matching the 38.887971 km² vector study area.
