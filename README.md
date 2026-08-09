@@ -77,9 +77,7 @@ The results reveal a clear spatial mismatch between ecological capacity and urba
 
 The priority map is intended as a strategic screening tool. High-priority locations should be examined for context-appropriate interventions such as street-tree expansion, pocket parks, courtyard greening, green roofs and walls, permeable surfaces, stormwater-oriented green infrastructure and stronger walking connections to existing green assets. Existing high-capacity forest and woodland should be protected from unnecessary fragmentation.
 
-## My contribution
 
-I formulated the planning problem, designed and implemented the geospatial workflow, integrated the remote-sensing, land-cover and population datasets, developed the capacity-demand-deficit framework, tested model sensitivity, interpreted the spatial results, produced the cartographic outputs and translated the findings into planning recommendations. External datasets and established geospatial methods remain attributable to their original providers and sources.
 
 ## Data sources
 
