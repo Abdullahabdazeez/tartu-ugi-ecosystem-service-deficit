@@ -1,129 +1,77 @@
 # Urban Green Infrastructure and Ecosystem Service Deficit Mapping — Tartu, Estonia
 
-**A spatial planning assessment of urban green infrastructure, ecosystem-service capacity, demand, deficit and intervention priority across Tartu's compact urban area.**
+**A geospatial planning assessment of ecosystem-service capacity, demand, deficit and intervention priorities across Tartu.**
 
-<p align="center">
-  <img src="assets/project-cover.png" alt="Planning-priority zones for Tartu's ecosystem-service deficit" width="100%">
-</p>
+Urban green infrastructure supports cooling, stormwater regulation, biodiversity, recreation and general environmental quality, but green assets are not always located where urban demand is strongest. I developed this project to identify that spatial mismatch across Tartu, Estonia, and translate it into practical planning priorities.
 
-Urban green infrastructure supports cooling, runoff regulation, habitat continuity, recreation and other ecosystem services, but its spatial distribution does not always match urban demand. This project developed an integrated planning framework for Tartu, Estonia, combining urban green-infrastructure classes with ecosystem-service capacity, demand and deficit indicators to identify areas requiring intervention.
+The analysis integrates Sentinel-2 vegetation and surface-condition indicators, Dynamic World land-cover information and WorldPop population data. I used these inputs to classify urban green infrastructure, estimate ecosystem-service capacity, model population-led demand, calculate ecosystem-service deficit and identify areas where green-infrastructure intervention should receive greater planning attention.
 
-The authoritative compact urban study area covered **38.89 km²**. Built-up land occupied **55.10%** of the mapped area, while vegetated urban green infrastructure covered **42.74%**. Tree-based UGI—including dense urban forest and urban woodland—covered **25.32%**.
+## Research question
 
-The planning-priority analysis found that **52.02%** of the study area, approximately **20.23 km²**, fell within High or Very High priority classes. Very High priority alone covered **31.09%**, or **12.09 km²**. Built-up areas dominated the highest-priority zones: approximately **19.96 km²**, representing **93.14% of all mapped built-up land**, occurred within High or Very High priority classes.
+**Where are ecosystem-service deficits concentrated in Tartu, and which areas should receive the greatest planning attention for urban green-infrastructure intervention?**
 
-| Project detail | Information |
-|---|---|
-| **Study area** | Tartu, Estonia |
-| **Compact urban extent** | 38.89 km² |
-| **Built-up surface** | 55.10% |
-| **Vegetated UGI coverage** | 42.74% |
-| **Tree-based UGI coverage** | 25.32% |
-| **High + Very High planning priority** | 52.02% |
-| **Very High planning priority** | 31.09% |
-| **Mean ecosystem-service deficit** | 0.5135 |
+## Study area
+
+| Project detail | Final value |
+|---|---:|
+| Study area | Tartu, Estonia |
+| Reporting area | **38.8872 km²** |
+| CRS | **EPSG:3301** |
+| Analytical resolution | **10 m** |
+| Reporting pixels | **388,872** |
+
+## Methodology
+
+1. Prepared the Tartu study boundary and a common 10 m analytical grid.
+2. Derived NDVI, EVI, NDMI, NDBI, MNDWI, SAVI and BSI from Sentinel-2 imagery.
+3. Integrated spectral condition with Dynamic World to classify seven urban land/UGI classes.
+4. Estimated ecosystem-service capacity on a 0–100 relative scale from UGI class and vegetation condition.
+5. Modelled ecosystem-service demand using WorldPop as the dominant signal (85%) and built context as a smaller modifier (15%).
+6. Calculated deficit as **Demand × (1 − Capacity/100)**.
+7. Ranked the continuous deficit surface into Very Low, Low, Moderate, High and Very High planning-priority classes.
+8. Tested the stability of the capacity, demand, deficit and priority patterns under alternative modelling assumptions.
+9. Interpreted the resulting spatial patterns and developed planning recommendations.
 
 ## Key findings
 
-- Built-up land covered **21.43 km²** or **55.10%** of the study area.
-- Vegetated UGI covered **16.62 km²** or **42.74%**.
-- Dense urban forest covered **8.55 km²** or **21.98%**.
-- Healthy green space covered **6.76 km²** or **17.38%**.
-- High and Very High planning priority covered **20.23 km²** or **52.02%**.
-- Very High priority covered **12.09 km²** or **31.09%**.
-- **93.14% of mapped built-up land** fell within High or Very High priority zones.
-- Mean ecosystem-service capacity was **36.71** on the project's 0–100 scale.
-- Mean normalized ecosystem-service demand was **0.3787**.
-- Mean ecosystem-service deficit was **0.5135**.
-- Mean deficit increased consistently from **0.1038** in Very Low priority areas to **0.8585** in Very High priority areas.
-
-## Analytical framework
-
-1. Prepared the authoritative compact urban boundary and analysis mask.
-2. Classified urban green infrastructure into water, dense forest, woodland, healthy green space, stressed green space, built-up and bare-surface classes.
-3. Derived ecosystem-service capacity indicators.
-4. Estimated normalized ecosystem-service demand.
-5. Calculated the spatial mismatch between capacity and demand.
-6. Classified ecosystem-service deficit.
-7. Combined deficit and planning evidence into five priority classes.
-8. Quantified UGI composition within each planning-priority class.
-9. Produced planning actions and intervention guidance.
-
-## Selected outputs
-
-### Urban green infrastructure
-
-![Urban green infrastructure](outputs/maps/01_urban_green_infrastructure.png)
-
-### Ecosystem-service capacity
-
-![Capacity](outputs/maps/02_ecosystem_service_capacity.png)
-
-### Ecosystem-service demand
-
-![Demand](outputs/maps/03_ecosystem_service_demand.png)
-
-### Ecosystem-service deficit
-
-![Deficit](outputs/maps/04_ecosystem_service_deficit.png)
-
-### Planning-priority zones
-
-![Priority](outputs/maps/05_planning_priority_zones.png)
-
-### UGI and planning-priority relationship
-
-![Heatmap](outputs/charts/06_ugi_by_planning_priority_heatmap.png)
+- Built-up land covers **21.6040 km² (55.56%)** of the reporting area.
+- Dense Urban Forest covers **7.5759 km² (19.48%)**.
+- Healthy Green Space covers **6.2446 km² (16.06%)**.
+- Urban Woodland covers **2.4494 km² (6.30%)**.
+- Vegetated UGI classes collectively cover approximately **16.4325 km² (42.26%)**.
+- Mean ecosystem-service capacity is **41.54/100**.
+- Mean ecosystem-service demand is **0.5768**.
+- Mean ecosystem-service deficit is **0.4110**.
+- Built-up areas have mean capacity of **8.00/100**, mean demand of **0.7339** and mean deficit of **0.6751**.
+- **72.30% of built-up land** falls within High or Very High planning-priority zones.
+- High and Very High priority classes together cover approximately **15.6229 km² (40.17%)** of the reporting area.
+- Deficit and planning priority have a Spearman correlation of **0.9802**, consistent with priority being derived from the deficit ranking.
 
 ## Planning interpretation
 
-The project identifies where additional green infrastructure, tree-canopy enhancement, ecological restoration or improved green-space connectivity would produce the greatest planning value. High-priority areas are concentrated primarily in built-up zones where ecosystem-service demand is high and existing green capacity is limited.
+The results reveal a clear spatial mismatch between ecological capacity and urban demand. Dense forest and woodland generally provide strong ecosystem-service capacity and experience low deficit, while much of the built-up fabric combines weak local capacity with comparatively high demand. Built-up areas therefore emerge as the main locations for targeted green-infrastructure enhancement—not because the model directly penalises development, but because the combined capacity-demand relationship produces higher deficits there.
 
-Priority classes should be used as strategic screening evidence rather than parcel-level prescriptions. Local planning should consider land ownership, public-space availability, infrastructure constraints, neighbourhood needs and site-specific ecological conditions before implementation.
+The priority map is intended as a strategic screening tool. High-priority locations should be examined for context-appropriate interventions such as street-tree expansion, pocket parks, courtyard greening, green roofs and walls, permeable surfaces, stormwater-oriented green infrastructure and stronger walking connections to existing green assets. Existing high-capacity forest and woodland should be protected from unnecessary fragmentation.
 
-The strong capacity–deficit and demand–deficit correlations are internal relationships within the project's model structure and should not be interpreted as independent causal evidence.
+## My contribution
 
-## Repository structure
+I formulated the planning problem, designed and implemented the geospatial workflow, integrated the remote-sensing, land-cover and population datasets, developed the capacity-demand-deficit framework, tested model sensitivity, interpreted the spatial results, produced the cartographic outputs and translated the findings into planning recommendations. External datasets and established geospatial methods remain attributable to their original providers and sources.
 
-```text
-.
-├── assets/                  # Project cover and social preview
-├── data/processed/
-│   ├── rasters/             # Authoritative study-area mask
-│   └── tables/              # UGI, deficit and planning-priority statistics
-├── docs/                    # Methods, interpretation, limitations and report
-├── notebooks/               # Final production notebook
-├── outputs/
-│   ├── maps/                # Five final planning maps
-│   └── charts/              # Six analytical charts
-├── scripts/python/          # Result-reproduction script
-├── validation/              # Final validation and production logs
-├── CITATION.cff
-├── LICENSE
-├── README.md
-├── project.json
-└── requirements.txt
-```
+## Data sources
 
-## Reproducibility
-
-The final production notebook is included in `notebooks/`. The repository also publishes the final tables and validation records used to verify the headline results.
-
-```bash
-pip install -r requirements.txt
-python scripts/python/reproduce_summary.py
-python validation/validate_repository.py
-```
+- **Sentinel-2 Surface Reflectance Harmonized** — spectral indicators and environmental condition.
+- **Google Dynamic World** — land-cover information supporting UGI classification.
+- **WorldPop 2020** — population-based ecosystem-service demand.
+- **Tartu study boundary** — final reporting and analysis extent.
 
 ## Author
 
 **Abdullah Abdazeez Ayomide**  
-Geo-spatial Planner | GIS & Remote Sensing Analyst
+Geo-spatial Planner | GIS & Remote Sensing Analyst | Environmental & Urban Planning Researcher
 
 - [GitHub](https://github.com/Abdullahabdazeez)
 - [LinkedIn](https://ng.linkedin.com/in/abdazeez-abdullah-4b814719a)
-- [Email](mailto:abdazeezabdullah1@gmail.com)
 
 ## Citation and licence
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Code and original documentation are released under the MIT License. External datasets retain their providers' licences and terms.
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Code and original documentation are released under the MIT License. External datasets retain their original providers' licences and terms.
