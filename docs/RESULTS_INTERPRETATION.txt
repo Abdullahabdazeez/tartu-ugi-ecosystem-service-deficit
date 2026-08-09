@@ -2,84 +2,26 @@ RESULTS INTERPRETATION
 
 1. Urban Green Infrastructure Structure
 
-The urban green infrastructure classification shows that Tartu's compact urban
-study area contains a substantial but spatially uneven green-infrastructure
-resource. Built-up land occupies 55.10% of the area, while
-vegetated UGI classes collectively account for 42.74%.
-Tree-based green infrastructure, comprising dense urban forest and urban woodland,
-covers 9.844 km² or 25.32% of the mapped
-area.
+The final reporting area covers 38.8872 km². Built-up land is the dominant class, occupying 21.6040 km² or 55.56% of the study area. Dense Urban Forest covers 7.5759 km² (19.48%), Healthy Green Space 6.2446 km² (16.06%), Urban Woodland 2.4494 km² (6.30%), Water 0.8412 km² (2.16%), Stressed Green Space 0.1626 km² (0.42%) and Bare Surface 0.0095 km² (0.02%).
 
-Dense urban forest is the largest individual green-infrastructure class,
-occupying 8.549 km² or 21.99% of the study area. Healthy green space occupies
-6.759 km² or 17.38%, while urban woodland accounts for 1.295 km² or 3.33%.
-Water covers 0.828 km² or 2.13%.
+2. Ecosystem-Service Capacity
 
-2. Ecosystem Service Capacity
+Mean ecosystem-service capacity across the reporting area is 41.54/100. Dense Urban Forest records the highest mean capacity at 98.82, followed by Urban Woodland at 77.81 and Healthy Green Space at 70.43. Built-up land records a mean capacity of 8.00.
 
-The mean ecosystem-service capacity score is 36.71 on the project's
-0–100 scale. The capacity distribution is strongly influenced by the contrast
-between vegetated and built-up surfaces. High-capacity areas are associated
-primarily with dense forest, woodland and healthy green space, while low-capacity
-values dominate extensively developed surfaces.
+3. Ecosystem-Service Demand
 
-The very high share of dense urban forest classified as Very Low planning
-priority (99.54%) confirms the strong service
-capacity assigned to this class. Similarly, 94.27% of
-urban woodland lies within the Very Low priority category.
+Mean ecosystem-service demand is 0.5768. Built-up land records the highest class-level mean demand at 0.7339. Healthy Green Space also shows relatively high mean demand at 0.6168. Capacity and demand are negatively associated (Spearman rho = -0.6043), indicating that stronger demand is often concentrated where local ecosystem-service capacity is weaker.
 
-3. Ecosystem Service Demand
+4. Ecosystem-Service Deficit
 
-The mean normalized ecosystem-service demand index is 0.379. Demand
-varies across the compact urban area, reflecting differences in urban intensity
-and the spatial concentration of environmental and population-related need.
-Demand data cover 38.444 km² of the study area,
-equivalent to approximately 98.86% of the authoritative boundary.
-
-4. Ecosystem Service Deficit
-
-The mean ecosystem-service deficit index is 0.514. The deficit
-surface represents the spatial mismatch between ecosystem-service capacity and
-demand. High values occur where demand is relatively strong but existing
-green-infrastructure capacity is limited.
-
-The internal model relationships are strong: capacity and deficit have a
-correlation of -0.9735, while demand and deficit have
-a correlation of 0.9588. These values confirm the
-mathematical consistency of the deficit model because deficit was derived from
-capacity and demand. They should not be interpreted as independent causal
-relationships.
+Mean ecosystem-service deficit is 0.4110. Demand is strongly and positively related to deficit (Spearman rho = 0.8715), while capacity is strongly and negatively related to deficit (rho = -0.8764). Built-up areas record a mean deficit of 0.6751, substantially higher than Dense Urban Forest (0.0031), Urban Woodland (0.0597) and Healthy Green Space (0.1818).
 
 5. Planning-Priority Distribution
 
-High and Very High planning-priority zones jointly occupy
-20.230 km² or 52.02% of the study
-area. Moderate-priority areas occupy 2.935 km² or
-7.55%. Low and Very Low priority zones jointly cover
-15.722 km² or 40.43%.
-
-The deficit gradient supports the priority classification. Mean deficit rises
-from 0.104 in Very Low priority areas to 0.290 in Low,
-0.500 in Moderate, 0.725 in High and 0.858 in Very High
-priority areas.
+Very Low priority covers 7.7516 km², Low 7.7494 km², Moderate 7.7633 km², High 7.8075 km² and Very High 7.8154 km². Because quintiles were used, each class occupies approximately one-fifth of the reporting area. High and Very High classes together cover approximately 15.6229 km² or 40.17%.
 
 6. Relationship Between UGI Classes and Planning Priority
 
-The cross-classification reveals a pronounced division between developed and
-green surfaces. Built-up land dominates the highest-priority categories:
-93.14% of built-up land is classified as High or
-Very High priority. Built-up areas also account for
-98.64% of all High and Very High priority land.
+The strongest planning result is the concentration of High and Very High priority within built-up land. Approximately 72.30% of built-up land falls within these two classes, compared with only 0.02% of non-built land. Deficit and priority are strongly associated (Spearman rho = 0.9802), as expected because priority is derived from the continuous deficit ranking.
 
-In contrast, dense urban forest and urban woodland are overwhelmingly
-concentrated in the Very Low priority category. Healthy green space has a more
-mixed profile: 73.17% lies within Low or Very
-Low priority zones, while only 4.07% occurs
-within High or Very High priority zones.
-
-Water surfaces also show a predominantly low-priority profile, with
-92.08% classified as Low or Very Low priority.
-
-The results indicate that existing green infrastructure largely performs a
-protective ecosystem-service role, while the most significant service deficits
-are concentrated in extensively built-up parts of the urban area.
+The results show a clear spatial mismatch between ecological capacity and urban demand. High-capacity forest and woodland generally experience low deficits, while the built-up fabric contains the strongest concentration of capacity-demand imbalance.
