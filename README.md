@@ -57,6 +57,10 @@ The priority map is intended as a strategic screening tool. High-priority locati
 
 I formulated the planning problem, designed and implemented the geospatial workflow, integrated the remote-sensing, land-cover and population datasets, developed the capacity-demand-deficit framework, tested model sensitivity, interpreted the spatial results, produced the cartographic outputs and translated the findings into planning recommendations. External datasets and established geospatial methods remain attributable to their original providers and sources.
 
+## Final report
+
+Read the complete public-facing report here: [`docs/FINAL_REPORT.md`](docs/FINAL_REPORT.md).
+
 ## Data sources
 
 - **Sentinel-2 Surface Reflectance Harmonized** — spectral indicators and environmental condition.
