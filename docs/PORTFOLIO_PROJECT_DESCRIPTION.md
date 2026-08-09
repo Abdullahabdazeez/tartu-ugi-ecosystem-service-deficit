@@ -1,109 +1,48 @@
-PROJECT TITLE
+# Urban Green Infrastructure and Ecosystem Service Deficit Mapping — Tartu, Estonia
 
-Urban Green Infrastructure and Ecosystem Service Deficit Mapping — Tartu, Estonia
+## Project overview
 
+This project assessed how urban green infrastructure is distributed across Tartu and where ecosystem-service capacity is least able to meet urban demand. I developed a geospatial planning framework that integrates remote sensing, land-cover information and population data to move from environmental mapping to practical planning priorities.
 
-PROJECT OVERVIEW
+The final reporting area covers **38.8872 km²** on a common **10 m** grid in **EPSG:3301**.
 
-This project assessed the spatial distribution and performance of urban green
-infrastructure within the compact urban area of Tartu, Estonia. It integrated
-urban surface classification, ecosystem-service capacity, spatial demand,
-capacity–demand deficit modelling and planning-priority analysis to identify
-where green-infrastructure protection, enhancement and new intervention are most
-needed.
+## Problem statement
 
-The validated study area covers 38.888 km². All final
-rasters were harmonized to a common 10-metre spatial grid and assessed using an
-authoritative compact urban boundary.
+Urban green infrastructure can be substantial at the city scale while still being poorly matched to locations of concentrated demand. Without a spatial assessment of both ecological capacity and demand, green-infrastructure investment may not reach the places where it can provide the greatest planning value.
 
+## Objectives
 
-PROBLEM STATEMENT
+1. Map and quantify the main UGI classes across Tartu.
+2. Estimate relative ecosystem-service capacity.
+3. Model population-led ecosystem-service demand.
+4. Identify ecosystem-service deficit from the capacity-demand relationship.
+5. Classify city-wide planning priorities.
+6. Translate the results into practical green-infrastructure recommendations.
 
-Urban green infrastructure is often distributed unevenly across cities.
-Neighbourhoods with extensive built-up surfaces may have high environmental
-demand but limited green-space capacity, creating spatial deficits in ecosystem
-services. Without a systematic spatial assessment, urban greening investments
-may fail to reach the locations where intervention is most urgent.
+## Methodology summary
 
-This project addressed that problem by developing a reproducible geospatial
-framework for comparing ecosystem-service capacity and demand and translating
-the resulting deficit into planning-priority zones.
+Sentinel-2 spectral indicators were combined with Dynamic World land-cover information to classify Water, Dense Urban Forest, Urban Woodland, Healthy Green Space, Stressed Green Space, Built-up and Bare Surface. Ecosystem-service capacity was estimated on a 0–100 relative scale. Demand was modelled from WorldPop with population carrying 85% of the weight and built context 15%. Deficit was calculated as **Demand × (1 − Capacity/100)** and classified into five planning-priority levels.
 
+## Key findings
 
-PROJECT OBJECTIVES
+- Built-up land: **21.6040 km² (55.56%)**
+- Dense Urban Forest: **7.5759 km² (19.48%)**
+- Healthy Green Space: **6.2446 km² (16.06%)**
+- Urban Woodland: **2.4494 km² (6.30%)**
+- Mean ecosystem-service capacity: **41.54/100**
+- Mean ecosystem-service demand: **0.5768**
+- Mean ecosystem-service deficit: **0.4110**
+- Built-up mean deficit: **0.6751**
+- **72.30% of built-up land** occurs within High or Very High planning-priority zones.
 
-1. Classify and quantify major urban green-infrastructure classes.
-2. Model ecosystem-service capacity across the compact urban area.
-3. represent spatial differences in ecosystem-service demand.
-4. Identify ecosystem-service deficit through capacity–demand comparison.
-5. Classify locations into five planning-priority categories.
-6. Generate maps, statistics and planning recommendations for decision support.
+## Planning conclusion
 
+The results reveal a clear mismatch between ecological capacity and concentrated urban demand. Existing high-capacity forest and woodland should be protected and connected, while high-priority built-up areas should be assessed for targeted interventions such as street trees, pocket parks, courtyard greening, green roofs and walls, permeable surfaces and stormwater-oriented green infrastructure.
 
-METHODOLOGY SUMMARY
+## My contribution
 
-The workflow used a common 10-metre raster grid and an authoritative compact
-urban boundary. Urban surfaces were classified into Water, Dense Urban Forest,
-Urban Woodland, Healthy Green Space, Stressed Green Space, Built-up and Bare
-Surface.
+I formulated the planning problem, designed and implemented the geospatial workflow, integrated the datasets, developed the capacity-demand-deficit framework, tested model sensitivity, interpreted the spatial results, produced the maps and translated the findings into planning recommendations.
 
-A continuous ecosystem-service capacity score was analysed alongside a
-normalized ecosystem-service demand index. Their spatial relationship was used
-to identify ecosystem-service deficit. The deficit results were translated into
-Very Low, Low, Moderate, High and Very High planning-priority classes.
+## Tools and skills
 
-Final processing included raster alignment validation, authoritative masking,
-class-area calculations, descriptive statistics, cross-dataset correlation,
-UGI–priority cross-classification and professional cartographic production.
-
-
-KEY FINDINGS
-
-• Built-up surfaces occupy 21.426 km² or
-  55.10% of the study area.
-
-• Vegetated urban green infrastructure covers 16.619 km² or
-  42.74% of the area.
-
-• Tree-based green infrastructure covers 9.844 km² or
-  25.32% of the mapped area.
-
-• High and Very High planning-priority zones collectively occupy
-  20.230 km² or 52.02% of the
-  study area.
-
-• Very High priority zones alone cover 12.092 km² or
-  31.09%.
-
-• Approximately 19.955 km² of built-up land lies
-  within High or Very High priority zones.
-
-• This represents 93.14% of all mapped built-up
-  land.
-
-• Built-up surfaces constitute 98.64% of the
-  complete High and Very High priority area.
-
-• Mean ecosystem-service deficit increases from 0.104 in Very Low priority
-  zones to 0.858 in Very High priority zones.
-
-
-PLANNING CONCLUSION
-
-The highest ecosystem-service deficits are concentrated almost entirely within
-developed urban surfaces. The results support a dual planning strategy:
-protecting and connecting existing forests, woodlands and healthy green spaces,
-while prioritizing targeted green-infrastructure interventions within built-up
-deficit hotspots.
-
-Recommended interventions include street trees, pocket parks, green roofs,
-vegetated corridors, permeable surfaces and the greening of institutional and
-public land.
-
-
-TOOLS AND TECHNICAL SKILLS
-
-Python, GeoPandas, Rasterio, NumPy, Pandas, Matplotlib, raster analysis,
-spatial modelling, urban green-infrastructure assessment, ecosystem-service
-mapping, spatial statistics, cross-classification, cartographic design,
-technical-report production and reproducible geospatial workflows.
+GIS, remote sensing, Sentinel-2, Dynamic World, WorldPop, Python, GeoPandas, Rasterio, NumPy, Pandas, Matplotlib, raster analysis, spatial modelling, ecosystem-service assessment, spatial statistics and cartographic design.
