@@ -98,7 +98,7 @@ The map does not tell planners exactly which intervention to build at a specific
 
 Sentinel-2 Surface Reflectance · Dynamic World · WorldPop 2020 · Tartu study boundary
 
-More detail: [`docs/data_sources.md`](docs/data_sources.md).
+More detail: [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Report and outputs
 
