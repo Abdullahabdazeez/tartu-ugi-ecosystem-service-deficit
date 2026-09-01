@@ -21,7 +21,8 @@ The result is a planning-oriented way to identify places where green infrastruct
 | Dense Urban Forest | **7.5759 km² (19.48%)** |
 | Healthy Green Space | **6.2446 km² (16.06%)** |
 | Urban Woodland | **2.4494 km² (6.30%)** |
-| Vegetated UGI classes | **16.4325 km² (42.26%)** |
+| Stressed Green Space | **0.1626 km² (0.42%)** |
+| Vegetated UGI classes (sum of the four rows above) | **16.4325 km² (42.26%)** |
 | Mean ecosystem-service capacity | **41.54/100** |
 | Mean demand | **0.5768** |
 | Mean deficit | **0.4110** |
