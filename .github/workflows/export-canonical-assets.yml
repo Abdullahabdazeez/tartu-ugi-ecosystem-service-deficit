@@ -1,0 +1,25 @@
+name: Export canonical Tartu assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/export-canonical-assets.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build source archive
+        run: |
+          zip -r tartu-canonical-source.zip README.md CITATION.cff LICENSE REPOSITORY_STRUCTURE.md project.json assets data docs report 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tartu-canonical-source
+          path: tartu-canonical-source.zip
+          retention-days: 1
